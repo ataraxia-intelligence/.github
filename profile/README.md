@@ -1,87 +1,28 @@
 # Ataraxia Intelligence
 
-**Ataraxia Intelligence** is a research collective developing responsible, transparent and clinically meaningful Medical AI.  
-Our work focuses on Deep Learning, large language models (LLMs), multimodal decision-support systems and ethically aligned AI for oncology and urology.
-
-> **Mission:** Clarity in Clinical Intelligence.
+**Research Group for Artificial Intelligence in Urology & Oncology**
+*University Hospital Carl Gustav Carus Dresden (UKD) & Technical University Dresden (TUD)*
 
 ---
 
-## 🔍 Overview
+### 🔬 About Us
 
-Ataraxia Intelligence originates from projects within the Department of Urology at University Hospital Dresden, including:
+Ataraxia Intelligence is a specialized research group dedicated to advancing the field of uro-oncology through state-of-the-art Deep Learning and Large Language Models (LLMs). Our mission is to enhance clinical decision-making, improve patient outcomes, and democratize access to expert-level medical knowledge.
 
-- Fine-tuning large language models on **12,000+ pre-therapeutic prostate cancer tumor board cases** to generate AI-assisted treatment recommendations.
-- Comparative development of classical ML models and modern LLM-based pipelines for diagnostic and therapeutic decision support.
-- Creation of a structured **renal tumor / RCC database** for future multimodal AI development.
-- Planning and documentation of data pipelines, anonymization workflows and model evaluation frameworks.
+Our interdisciplinary team combines clinical expertise from the Department of Urology with advanced machine learning research.
 
-Our long-term vision is a multimodal medical AI system that integrates text, imaging and—later—genomics to support individualized cancer care.
+### 🚀 Key Research Areas
 
----
+* **Clinical Decision Support Systems (CDSS):** Developing LLM-based assistants for multidisciplinary tumor boards.
+* **Precision Oncology:** Integrating multimodal data (clinical text, radiology, pathology, genomics) for personalized treatment recommendations.
+* **Medical AI Safety:** Ensuring robustness, fairness, and guideline adherence in medical AI applications.
 
-## 🎯 Objectives
+### 📍 Affiliations
 
-1. **Responsible Medical AI**  
-   Transparent and ethically grounded AI that supports—never replaces—clinical decision-making.
-
-2. **LLM-based Decision Support**  
-   - Fine-tuning open-source LLMs  
-   - RAG integration with clinical guidelines  
-   - Evaluation via concordance, overtreatment and undertreatment metrics  
-   - Expert adjudication and benchmark comparison
-
-3. **Multimodal Intelligence**  
-   Combining clinical text, imaging, pathology and structured data into unified decision-support architectures.
-
-4. **Ethical Foundations**  
-   The name *Ataraxia* reflects calm, rational, unbiased judgement—a philosophical anchor for Medical AI.
+* Klinik und Poliklinik für Urologie, Universitätsklinikum Dresden
+* Technische Universität Dresden
+* National Center for Tumor Diseases (NCT/UCC) Dresden
 
 ---
 
-## 🧱 Data Governance Principles
-
-- **Clinical patient data remains strictly within hospital infrastructure.**  
-- **No patient-identifiable data is ever stored in this repository.**  
-- Only *fully anonymized* datasets, model weights, code, and documentation may be used outside clinical systems.
-- Public demos use either synthetic data or heavily anonymized samples.
-
----
-
-## 📁 Repository Purpose
-
-This repository serves as the central entry point for:
-
-- Architectural documentation  
-- Research design  
-- Model descriptions and evaluation summaries  
-- Pipelines and roadmap  
-- Public demos (future)  
-- Collaboration and onboarding information
-
-Additional repositories (models, RAG, demos, docs) will be added as the project expands.
-
----
-
-## 🛠 Tech Stack
-
-- **Languages:** Python, Bash  
-- **Frameworks:** PyTorch, Transformers, vLLM, QLoRA  
-- **Pipelines:** RAG, LoRA fine-tuning, anonymization flows  
-- **Infrastructure:** HPC (NVIDIA A100/H100), GitHub Actions, later EU-based Git hosting  
-- **Organization:** Notion for planning and documentation
-
----
-
-## 🤝 Collaboration
-
-We welcome collaborations with clinicians, researchers and data scientists in urology, oncology and medical AI.
-
-For inquiries or cooperative projects, please contact the Ataraxia Intelligence team.
-
----
-
-## 📢 Disclaimer
-
-This repository contains **no patient data** and is intended solely for research, documentation and demo purposes.
-
+*Note: Our code repositories and datasets are private due to patient privacy regulations and ongoing research. For collaboration inquiries, please contact the principal investigator.*
